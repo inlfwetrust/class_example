@@ -4,11 +4,12 @@ class User:
         self.age = age
         self.sex = sex
         self.strength = strength
+        self.id = 0
 
 
 user_bob = User('Bob', 32, 'male')
 user_maria = User('Mari', 66, 'Female', 25)
 
 print(user_bob.strength)
-print(user_maria .strength)
+print(user_maria .id)
 
